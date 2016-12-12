@@ -1,0 +1,20 @@
+{
+  "name": "redditdemo",
+  "homepage": "https://github.com/aynic/webportal",
+  "authors": [
+    "Anil Kumar Nayak <anilnayak@aynic.in>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.2.1"
+  }
+}

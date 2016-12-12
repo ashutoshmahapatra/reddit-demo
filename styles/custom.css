@@ -1,0 +1,185 @@
+body
+{
+  background: #ededed;  
+}
+.main-tabs-cont
+{
+  background: white;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
+.mdl-layout__container
+{
+	position: unset;
+}
+header
+{
+	background: #C3DBF6 url('../images/india_back.png') center / cover;
+}
+.header-top
+{
+  background: rgba(0,0,0,0.7) !important;
+}
+.header-bottom
+{
+  height: 130px
+}
+.main-tabs
+{
+	display: block;
+	width:66.66%;
+}
+.thread .mdl-card
+{
+  width:100%;
+  min-height: unset;
+}
+.thread .mdl-card
+{
+  padding:10px 15px;
+}
+.thread .mdl-card__supporting-text
+{
+  padding:0px;
+  padding-top:5px;
+  font-size: 12px;
+}
+.thread .mdl-card__supporting-text .light
+{
+  color:#aaa;
+}
+.thread .mdl-card__supporting-text .dark
+{
+  color:#666;
+}
+.thread .mdl-card__supporting-text a
+{
+  color:#2975C2;
+  text-decoration: none;
+}
+.thread .mdl-card
+{
+  flex-direction: row !important;
+}
+.thread .icon
+{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width:100px;
+  padding-right: 15px;
+}
+.thread .content
+{
+  display: flex;
+}
+.thread .content
+{
+  display: flex;
+  flex-direction: column;
+}
+.thread .icon .material-icons
+{
+   font-size: 50px
+}
+.thread
+{
+  margin-bottom: 5px;
+}
+.thread .icon img
+{
+  max-height: 70px
+}
+.thread .voter
+{
+  width:40px;
+  padding-right:10px;
+  text-align: center;
+}
+.text-center
+{
+	text-align: center;
+}
+.remove-card-default
+{
+	width:100%;
+	min-height: unset;
+}
+.login .mdl-textfield
+{
+  width:100%;
+  padding: 10px
+}
+.login .mdl-card
+{
+  padding:10px
+}
+.other-links li a
+{
+  color:#222;
+  text-decoration: none;
+}
+.other-links .mdl-list
+{
+  margin: 0;
+}
+.other-links .mdl-list__item
+{
+  padding:5px 10px;
+  display: block;
+  min-height: unset;
+}
+.links-header
+{
+  padding:10px;
+  color:white;
+  background: #3f51b5;
+}
+.mdl-card__supporting-text .light,.mdl-card__supporting-text .dark
+{
+  padding-right:3px;
+}
+.thread .main-text>.status
+{
+  color:#567;
+  font-size:12px;
+  border:1px solid;
+  padding:2px;
+  margin-right:10px;
+}
+.logo
+{
+  margin-top:20px;
+}
+.list-no
+{
+  display:inline-block;
+  width:20px;
+}
+@media (max-width: 1024px)
+{
+  .mdl-layout__header {
+    display: block;
+  }
+  .mdl-layout__header-row .mdl-navigation
+  {
+    display: none;
+  }
+  .main-tabs
+  {
+    width:100%;
+  }
+}
+@media (max-width: 480px)
+{
+  .main-tabs
+  {
+    display: none;
+  }
+  .thread .icon
+  {
+    display: none;
+  }
+}
